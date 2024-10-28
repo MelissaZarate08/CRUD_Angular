@@ -1,0 +1,20 @@
+<div class="book-form">
+  <form #form="ngForm" (ngSubmit)="onSubmit(form)">
+    <label for="id">ID</label>
+    <input type="number" id="id" name="id" [(ngModel)]="book.id" required />
+
+    <label for="title">Título del libro</label>
+    <input type="text" id="title" name="title" [(ngModel)]="book.title" required />
+
+    <label for="author">Autor del libro</label>
+    <input type="text" id="author" name="author" [(ngModel)]="book.author" required />
+
+    <label for="price">Precio</label>
+    <input type="number" id="price" name="price" [(ngModel)]="book.price" required />
+
+    <label for="quantity">Cantidad</label>
+    <input type="number" id="quantity" name="quantity" [(ngModel)]="book.quantity" required />
+
+    <button type="submit" class="add-button">Agregar libro</button>
+  </form>
+</div>

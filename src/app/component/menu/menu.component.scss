@@ -1,0 +1,40 @@
+.menu-css {
+    text-align: left;
+    background-color: rgb(229, 247, 247); /* Color de fondo del menú */
+    padding: 10px; /* Espaciado alrededor del menú */
+    border-radius: 8px; /* Bordes redondeados */
+}
+
+.menu-button {
+    background: none; /* Sin fondo */
+    border: none; /* Sin borde */
+    cursor: pointer; /* Cursor de mano al pasar por encima */
+}
+
+.menu-icon {
+    font-size: 50px; /* Aumentar tamaño del ícono */
+    color: #007bff; /* Color azul del ícono */
+    transition: transform 0.3s; /* Transición suave para el hover */
+}
+
+.menu-button:hover .menu-icon {
+    transform: scale(1.5); /* Aumentar el ícono al pasar el cursor */
+}
+
+.custom-menu {
+    background-color: #ffffff; /* Fondo blanco del menú */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el menú */
+}
+
+.menu-item {
+    color: #cacaca; /* Color del texto de los ítems */
+    transition: background-color 0.3s, color 0.3s; /* Transiciones suaves */
+    padding: 10px 20px; /* Espaciado interno para los ítems */
+}
+
+.menu-item:hover {
+    background-color: #007bff; /* Color de fondo en hover para los ítems */
+    color: white; /* Color del texto en hover */
+    border-radius: 8px; /* Bordes redondeados en hover */
+}

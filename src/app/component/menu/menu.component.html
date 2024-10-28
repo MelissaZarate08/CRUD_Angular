@@ -1,0 +1,9 @@
+<div class="menu-css">
+  <button mat-button [matMenuTriggerFor]="menu" class="menu-button">
+    <mat-icon class="menu-icon">menu</mat-icon>
+  </button>
+  <mat-menu #menu="matMenu" class="custom-menu">
+    <button mat-menu-item routerLink="add" class="menu-item">Agregar Libro</button>
+    <button mat-menu-item routerLink="ver" class="menu-item">Ver Libros</button>
+  </mat-menu>
+</div>
